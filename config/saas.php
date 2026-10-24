@@ -9,7 +9,7 @@ return [
     | Used by LandingLayout and email templates.
     | Override these values in config/app.php (app.name) or via .env APP_NAME.
     */
-    'app_name' => env('APP_NAME', 'App'),
+    'app_name' => env('APP_NAME', 'Chat'),
     'tagline' => env('SAAS_TAGLINE', 'Customer messaging on WhatsApp'),
     'support_email' => env('SAAS_SUPPORT_EMAIL', env('MAIL_FROM_ADDRESS', 'support@example.com')),
     // External help/documentation URL shown in the client "Help & Docs" nav

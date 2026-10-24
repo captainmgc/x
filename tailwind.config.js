@@ -18,7 +18,7 @@ export default {
                 // the admin's font setting (see app.blade.php).
                 sans: ['var(--font-sans)', ...defaultTheme.fontFamily.sans],
             },
-            // WhatsMine palette — brand (forest-green #467235), accent (amber
+            // Chat palette — brand (forest-green #467235), accent (amber
             // #FFBF00 / light-yellow #FFF78D), secondary (dark-green #283F24).
             // Source of truth: ./.branding
             //

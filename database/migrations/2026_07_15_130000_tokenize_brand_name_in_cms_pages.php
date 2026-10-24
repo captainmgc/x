@@ -7,16 +7,16 @@ use Illuminate\Support\Facades\Schema;
 /**
  * CMS pages (privacy, terms, …) were seeded with the vendor brand name resolved
  * at seed time, so a white-label install that renamed the app kept serving
- * "WhatsMine" in its legal copy. Rewrite them to the `:brand` token, which
+ * "Chat" in its legal copy. Rewrite them to the `:brand` token, which
  * CmsPageController resolves on render (see App\Support\Brand).
  *
  * Mirrors the landing-content migration. A no-op on installs that never seeded
  * CMS pages, and safe for installs that kept the original name — `:brand`
- * resolves back to config('app.name'), still "WhatsMine" unless an admin renames.
+ * resolves back to config('app.name'), still "Chat" unless an admin renames.
  */
 return new class extends Migration
 {
-    private const LEGACY_BRAND = 'WhatsMine';
+    private const LEGACY_BRAND = 'Chat';
 
     private const COLUMNS = ['title', 'content', 'meta_title', 'meta_description'];
 

@@ -26,7 +26,7 @@ export default function SeoHead({ title, description, keywords, image, canonical
     // Fall back to the brand icon when a page doesn't supply its own og:image.
     // A page-provided `image` is assumed wide (2:1), so it gets a large card;
     // the square brand fallback uses the standard summary card.
-    const ogImage = image || faviconUrl || `${origin}/whatsmine-icon-512.png`;
+    const ogImage = image || faviconUrl || `${origin}/chat-icon-512.png`;
     const twitterCard = image ? 'summary_large_image' : 'summary';
 
     const graphs = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];

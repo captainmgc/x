@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "whatsmine/whatsmine",
+    "name": "chat/chat",
     "type": "project",
-    "description": "WhatsMine — multi-channel customer messaging, AI chatbots, broadcasting and automation platform.",
+    "description": "Chat — multi-channel customer messaging, AI chatbots, broadcasting and automation platform.",
     "keywords": ["whatsapp", "messaging", "saas", "inbox", "automation"],
     "license": "proprietary",
     "require": {

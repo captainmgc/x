@@ -52,8 +52,8 @@
             <link rel="apple-touch-icon" href="{{ $faviconUrl }}">
         @else
             {{-- Fallback brand icon: SVG for modern browsers, .ico for legacy,
-                 PNG apple-touch for iOS home-screen. See public/whatsmine-icon.svg. --}}
-            <link rel="icon" type="image/svg+xml" href="/whatsmine-icon.svg">
+                 PNG apple-touch for iOS home-screen. See public/chat-icon.svg. --}}
+            <link rel="icon" type="image/svg+xml" href="/chat-icon.svg">
             <link rel="alternate icon" href="/favicon.ico" sizes="any">
             <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         @endif

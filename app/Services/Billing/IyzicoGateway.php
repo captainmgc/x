@@ -48,7 +48,7 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class IyzicoGateway implements BillingGatewayInterface
 {
-    private const CLIENT_VERSION = 'whatsmine-laravel-1.0';
+    private const CLIENT_VERSION = 'chat-laravel-1.0';
 
     /** iyzico rejects any other currency on a subscription pricing plan. */
     private const SUPPORTED_CURRENCIES = ['TRY', 'USD', 'EUR'];

@@ -41,7 +41,7 @@
         <link rel="icon" href="{{ $faviconUrl }}">
         <link rel="apple-touch-icon" href="{{ $faviconUrl }}">
     @else
-        <link rel="icon" type="image/svg+xml" href="/whatsmine-icon.svg">
+        <link rel="icon" type="image/svg+xml" href="/chat-icon.svg">
         <link rel="alternate icon" href="/favicon.ico" sizes="any">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     @endif

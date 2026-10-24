@@ -1,7 +1,7 @@
 {
-  "name": "WhatsMine",
+  "name": "Chat",
   "updated": "2026-06-19",
-  "description": "Brand identity for WhatsMine. Source of truth for the name and color palette. Tailwind tokens in tailwind.config.js are derived from the scales below.",
+  "description": "Brand identity for Chat. Source of truth for the name and color palette. Tailwind tokens in tailwind.config.js are derived from the scales below.",
   "palette": {
     "primary": "#467235",
     "amber": "#FFBF00",

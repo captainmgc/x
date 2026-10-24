@@ -6,15 +6,15 @@ use Illuminate\Support\Facades\DB;
 /**
  * Marketing copy used to be seeded with the vendor brand name baked in as a
  * literal, so a white-label install that renamed the app still rendered
- * "WhatsMine" across the landing pages. Rewrite those stored values to the
+ * "Chat" across the landing pages. Rewrite those stored values to the
  * `:brand` token, which LandingPageController::brandify() resolves on read.
  *
  * Safe for installs that kept the original name: `:brand` falls back to
- * config('app.name'), which is still "WhatsMine" unless an admin changed it.
+ * config('app.name'), which is still "Chat" unless an admin changed it.
  */
 return new class extends Migration
 {
-    private const LEGACY_BRAND = 'WhatsMine';
+    private const LEGACY_BRAND = 'Chat';
 
     public function up(): void
     {
